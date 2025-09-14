@@ -21,7 +21,8 @@ To write a Python program to:
 6. Sort the list in descending order.
 7. Print the updated list.
 
-## 🧪 Program: 
+## 🧪 Program:
+~~~
 from queue import PriorityQueue
 que=PriorityQueue()
 n=int(input())
@@ -32,6 +33,7 @@ for number in l:
     que.put((-number, number))
 while not que.empty():
     print(que.get()[1])
+~~~
 
 ### Output:
 
